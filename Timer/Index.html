@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Timer</h1>
+    <div id="container">
+        <p id="hour-label" class = "label">Hours</p> 
+        <p id="minute-label" class="label">Minutes</p>
+        <p id="second-label" class="label">Seconds</p>
+        <input id="hour" min="0" max="24" value ="0" class="time">
+        <p id="p1" class="semicolon">:</p>
+        <input id="minute" min="0" max="60" value="0" class="time">
+        <p id="p2" class="semicolon">:</p>
+        <input id="second" min="0" max="60" value="0" class="time">
+        <button id="start" class="button">start</button>
+        <button id="reset" class="button">reset</button>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
